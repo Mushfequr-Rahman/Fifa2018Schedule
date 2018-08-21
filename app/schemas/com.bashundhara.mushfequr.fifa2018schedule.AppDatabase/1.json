@@ -1,0 +1,81 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "0db84c84038a4f2775d212ce58ac054f",
+    "entities": [
+      {
+        "tableName": "INFO",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uid` INTEGER NOT NULL, `ID` TEXT, `Phone_Number` TEXT, `Game` TEXT, `Answer_1` TEXT, `Answer_2` TEXT, `Answer_3` TEXT, `Save_Answers` INTEGER NOT NULL, `Submitted_answers` INTEGER NOT NULL, PRIMARY KEY(`uid`))",
+        "fields": [
+          {
+            "fieldPath": "uid",
+            "columnName": "uid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "email_address",
+            "columnName": "ID",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "phone_number",
+            "columnName": "Phone_Number",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "game_info",
+            "columnName": "Game",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "answer_1",
+            "columnName": "Answer_1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "answer_2",
+            "columnName": "Answer_2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "answer_3",
+            "columnName": "Answer_3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "answers_saved",
+            "columnName": "Save_Answers",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "answers_submitted",
+            "columnName": "Submitted_answers",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "uid"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"0db84c84038a4f2775d212ce58ac054f\")"
+    ]
+  }
+}

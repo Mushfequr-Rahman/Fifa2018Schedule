@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".Quiz_Activity"
+    >
+
+    <ImageView
+        android:id="@+id/Team_A_flag"
+        android:layout_width="135dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/schedule" />
+
+    <ImageView
+        android:id="@+id/Team_B_flag"
+        android:layout_width="135dp"
+        android:layout_height="118dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        app:srcCompat="@drawable/schedule" />
+
+    <TextView
+        android:id="@+id/team_information"
+        android:layout_width="270dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/Team_A_Name"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coustard"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/team_information"
+        android:layout_centerHorizontal="true"
+        android:text="QUIZ" />
+
+    <TextView
+        android:id="@+id/Team_A_Name"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Team_A_flag"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Team_B_Name"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/Team_B_flag"
+        android:layout_below="@+id/Team_A_flag"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="70dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/bangers"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textSize="46sp" />
+
+</RelativeLayout>

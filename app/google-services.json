@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "407707700706",
+    "firebase_url": "https://fifa2018schedule-398ca.firebaseio.com",
+    "project_id": "fifa2018schedule-398ca",
+    "storage_bucket": "fifa2018schedule-398ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407707700706:android:3912730dbef3038e",
+        "android_client_info": {
+          "package_name": "com.bashundhara.mushfequr.fifa2018schedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407707700706-42mapangbaf4me8rcociqdf512k14a3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bashundhara.mushfequr.fifa2018schedule",
+            "certificate_hash": "15da6bfc8dc8bd5a2ce83e491623b61776b9cbea"
+          }
+        },
+        {
+          "client_id": "407707700706-0ld1c547oipl576jdteulfcjojioig7d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "407707700706-0ld1c547oipl576jdteulfcjojioig7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXF-Y299ejEHiDSl-MJ21eVwqZoBfyr74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407707700706-0ld1c547oipl576jdteulfcjojioig7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
